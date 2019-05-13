@@ -1,0 +1,218 @@
+/*
+** Author: Harsh Dagar
+** Language: CSS
+*/
+.carousel > .fade > div > .text{
+    width: 97.9vw;
+}
+@media screen and (max-width: 1100px){ 
+    .header{
+        position: fixed;
+        width: 100vw;
+        z-index: 10;
+    }
+    .exp_header{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-content: space-between;
+        width: 70%;
+        overflow: visible;
+    }
+    .carousel > .fade > div > .text{
+        width: 97.9vw;
+    }
+    .carousel > .fade > div > .text > .carousel_Btn{
+        margin-left: 20%;
+    }
+    .demoText{
+        width: 80%;
+    }
+    .demoImageBlock{
+        flex-direction: column;
+        width: 45em;
+        margin: 60px auto auto auto;
+    }
+    .demoImageBlock > img{
+        height: 8vh;
+        width: 7vw;
+    }
+    .demoImageBlock > div{
+        display: flex;
+    }
+    .demoImageBlock > p{
+        line-height: 1.6em;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        width: 20em;
+    }
+    .residentialText,.commercialText,.hospitalityText{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 15px;
+    }
+    .tableDecor > .tFlexSecond{
+        flex-direction: column;
+    }
+    .tableDecor > .table3 > img{
+        height: 720px;
+        width: 540px;
+    }
+    .brooklynGreen > .btable1 > img{
+        width: 540px;
+        height: 720px;
+    }
+    .brooklynGreen > .bFlexSecond{
+        flex-direction: column;
+    }
+    .rioDeJaneiro > .rFlexSecond, .rioDeJaneiro > .rFlexThird {
+        flex-direction: column;
+    }
+    .Hawaii > .hFlexSecond{
+        flex-direction: column;
+    }
+    .Hawaii > .htable1 > img, .Hawaii > .htable4 > img, .Hawaii > .hFlexSecond > div > img{
+        width: 540px;
+        height: 720px;
+    }
+    .alex_Btn{
+        position: relative;
+        margin-top: -25px;
+        align-self: flex-end;
+        right: 15px;
+        display: block;
+    }
+    .alex_Btn > img{
+        justify-content: center;
+    }
+    nav{
+        display: none;
+        margin-left: 0px;
+        width: 70%;
+    }
+    nav > .navbar{
+        text-align: left;
+        display: flex;
+        z-index: -1;
+        border-radius: 20px;
+        background: #f8f9fae0;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-top: 30px;
+    }
+    nav .navbar li{
+        padding: 10px;
+    }
+    nav .navbar li:first-child{
+        padding-top: 60px;
+    }
+    nav .navbar li:last-child{
+        padding-bottom: 50px;
+    }
+    .has_dropdown:hover > .dropdown,.dropdown:hover{
+        display: none;
+    }
+    .has_dropdown > a > i{
+        float: right;
+        margin-right: 10px;
+    }
+    .contact_footer{
+        margin-top: 16em;
+        position: relative;
+        display: none;
+    }
+}
+@media screen and (max-width: 750px){
+    .header{
+        width: 100vw;
+    }
+    .carousel > .fade > div > .text{
+        flex-direction: column;
+        text-align: left;
+        width: 95vw;
+    }
+    .py-carousel > .container > .py_text > .bigText{
+        font-size: 3.5rem
+    }
+    .py-carousel > .container > .py_text > .bigSmall{
+        font-size: 0.5rem
+    }
+    .demoImageBlock{
+        width: 90%;
+    }
+    .demoImageBlock > div{
+        display: block;
+    }
+    .demoImageBlock > img{
+        height: 6vh;
+        width: 8vw;
+    }
+    .residentialText,.commercialText,.hospitalityText{
+        text-align: center;
+    }
+    .tableDecor > .table3 > img, .tableDecor > .tFlexSecond > div > img{
+        height: 30em;
+        width: 25em;
+    }
+    .brooklynGreen > .btable1 > img, .brooklynGreen > .bFlexSecond > div >img{
+        height: 30em;
+        width: 25em;
+    }
+    .rioDeJaneiro > .rFlexSecond > div > img, .rioDeJaneiro > .rFlexThird > div > img{
+        height: 30em;
+        width: 25em;
+    }
+    .Hawaii > .htable1 > img, .Hawaii > .htable4 > img, .Hawaii > .hFlexSecond > div > img{
+        height: 30em;
+        width: 25em;
+    }
+}
+@media screen and (max-width: 400px){
+    .header{
+        width: 100vw;
+    }
+    nav{
+        display: none;
+    }
+    .carousel > .fade > div > .text{
+        width: 94vw;
+    }
+    .demoImageBlock > div > img{
+        height: 70vw;
+        width: 70vw;
+    }
+    .demoImageBlock > div{
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+    .demoBigText{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .residentialText,.commercialText,.hospitalityText{
+        display: inline;
+    }
+    .tableDecor > .table3 > img, .tableDecor > .tFlexSecond > div > img{
+        height: 70vw;
+        width: 60vw;
+    }
+    .brooklynGreen > .btable1 > img, .brooklynGreen > .bFlexSecond > div >img{
+        height: 70vw;
+        width: 60vw;
+    }
+    .rioDeJaneiro > .rFlexSecond > div > img, .rioDeJaneiro > .rFlexThird > div > img{
+        height: 70vw;
+        width: 60vw;
+    }
+    .Hawaii > .htable1 > img, .Hawaii > .htable4 > img, .Hawaii > .hFlexSecond > div > img{
+        height: 70vw;
+        width: 60vw;
+    }
+}
